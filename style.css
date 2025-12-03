@@ -1,55 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
 body {
     font-family: 'Cabin';
     background-color: #758190;
 }
 
-#tentacles {
-    width: 50px;
-}
-
-.header {
-    display: flex;
-    background-color: lightblue;
-    padding: 1%;
-    align-items: center;
-    margin-left: -10px;
-    margin-right: -10px;
-    margin-top: -10px;
-}
-
-.stats-container {
-    display: flex;
-}
-
-.stats-card {
-    background-color: #a8b0bc;
-    border-radius: 7px;
+button {
+    font-family: 'Cabin';
+    border: none;
     padding: 1%;
     margin: 1%;
-    width: 100%;
+    border-radius: 7px;
+}
+
+#button-container {
     text-align: center;
 }
 
-#num-contributions, #total-raised, #num-games {
-    font-size: 50px;
-}
-
-#games-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.game-img {
-    width: 100%;
-    border-radius: 5px;
-    box-shadow: 0 0 10px #FFFFFF;
-}
-
 .game-card {
-    background-color: #FFFFFF;
+    background-color:aqua;
     padding: 1%;
     margin: 1%;
     width: 300px;
@@ -62,14 +32,75 @@ body {
     box-shadow: 0 0 30px lightblue;
 }
 
-#button-container {
+.game-img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #FFFFFF;
+}
+
+.game-name { 
+    font-weight:bold;
+    font-family: 'Dancing Script', cursive; 
+    font-size: 30px;
+}
+
+#games-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: lightblue;
+    padding: 1%;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
+    gap: 20px;
+}
+
+.header a {
+    flex: 0 0 auto;  /* Don't let link grow */
+    color: black !important;
+}
+
+.header img {
+    flex: 0 0 auto;  /* Don't let image grow */
+}
+
+.header-text {
+    margin: 0;  /* Remove default h1 margins */
+    flex: 0 0 auto;  /* Don't let h1 grow */
+}
+
+#num-contributions, #total-raised, #num-games {
+    font-size: 50px;
+}
+
+.stats-card {
+    background-color: #a8b0bc;
+    border-radius: 7px;
+    padding: 1%;
+    margin: 1%;
+    width: 100%;
     text-align: center;
 }
 
-button {
-    font-family: 'Cabin';
-    border: none;
-    padding: 1%;
-    margin: 1%;
-    border-radius: 7px;
+.stats-container {
+    display: flex;
+    background-color: #27F5DD;
+    align-items: center;
+    cursor: pointer;
+}
+
+.stats-container:hover {
+    box-shadow: 0 0 30px lightblue;
+}
+
+#tentacles {
+    width: 50px;
 }
