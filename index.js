@@ -92,6 +92,7 @@ raisedCard.textContent = `$${totalPledged.toLocaleString('en-US')}`;
 secondGameName.textContent = topTwo[1].name;    
 secondGameContainer.appendChild(secondGameName);  
 
+showAllGames();
 
 allBtn.addEventListener("click", showAllGames);
 fundedBtn.addEventListener("click", filterFundedOnly);

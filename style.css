@@ -12,6 +12,7 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+    background-color: lightblue;
 }
 
 #button-container {
@@ -19,7 +20,7 @@ button {
 }
 
 .game-card {
-    background-color:aqua;
+    background-color: #27F5DD;
     padding: 1%;
     margin: 1%;
     width: 300px;
@@ -29,7 +30,7 @@ button {
 
 .game-card:hover {
     cursor: pointer;
-    box-shadow: 0 0 30px lightblue;
+    box-shadow: 0 0 30px black;
 }
 
 .game-img {
@@ -98,7 +99,7 @@ button {
 }
 
 .stats-container:hover {
-    box-shadow: 0 0 30px lightblue;
+    box-shadow: 0 0 30px black;
 }
 
 #tentacles {
