@@ -73,7 +73,7 @@ const totalContributions = GAMES_JSON.reduce( (acc, game) => acc + game.backers,
 const totalPledged = GAMES_JSON.reduce( (acc, game) => acc + game.pledged, 0); 
 const totalUnfunded = GAMES_JSON.filter( (game) => game.pledged < game.goal).length;
 
-const displayStr = `A total of ${totalPledged.toLocaleString('en-US')} has been raised for 
+const displayStr = `A total of $${totalPledged.toLocaleString('en-US')} has been raised for 
     ${GAMES_JSON.length} ${getPlural(GAMES_JSON.length)}. Currently, 
     ${totalUnfunded} ${getPlural(totalUnfunded)} remain unfunded. We need your help to fund 
     these amazing games!`
