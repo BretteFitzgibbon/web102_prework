@@ -27,8 +27,6 @@ The following **optional** features and stylistic updates are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
 https://youtu.be/sPbA3WbTgzc 
 
 ## Notes
